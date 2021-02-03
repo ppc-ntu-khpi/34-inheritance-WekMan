@@ -6,9 +6,12 @@ public class Animal {
 
     protected int weight;
 
+    protected int age;
+
     public Animal() {
         name="generic animal";
-        weight=25;
+        weight = 120;
+        age = 12;
     }
 
     public void eat() {
@@ -21,8 +24,8 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "My animal:" + "\nName:\t" + name + "\nWeight:\t" + weight+" kg";
+        return "Animal{" + "\n Name:\t" + name + "\nWeight:\t" + weight + "\nAge:\t" + age + '}';
     }
 
- 
+  
 }
